@@ -5,6 +5,8 @@ An end-to-end data analysis project examining risk-adjusted returns across five 
 **[View the interactive Tableau dashboard →](#)** *(https://public.tableau.com/views/SingaporeBlue-ChipStocksPortfolioAnalysis/SingaporeBlue-ChipStocksPortfolioAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)*
 
 ---
+## Executive Summary
+This analysis ranks five Singapore blue-chip stocks by risk-adjusted return — not just raw return — to answer the question an investor actually cares about: where does each unit of risk pay off best? DBS Group comes out on top (Sharpe ~2.17), delivering strong returns at lower volatility than ST Engineering, which posted a higher raw return but a worse risk-adjusted one. CapitaLand Investment is the one clear underperformer (negative Sharpe). An equal-weighted portfolio of all five also cuts volatility below any single stock, confirming diversification benefits even with only moderate correlation between holdings — evidence-based support for how this portfolio should be constructed and weighted.
 
 ## Project Overview
 
