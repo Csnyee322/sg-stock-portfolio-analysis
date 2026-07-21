@@ -7,7 +7,7 @@ An end-to-end data analysis project examining risk-adjusted returns across five 
 ---
 ## Executive Summary
 
-This analysis ranks five Singapore blue-chip stocks by risk-adjusted return — not just raw return — to answer the question an investor actually cares about: where does each unit of risk pay off best? DBS Group comes out on top (Sharpe ~2.17), delivering strong returns at lower volatility than ST Engineering, which posted a higher raw return but a worse risk-adjusted one. CapitaLand Investment is the one clear underperformer (negative Sharpe). An equal-weighted portfolio of all five also cuts volatility below any single stock, confirming diversification benefits even with only moderate correlation between holdings — evidence-based support for how this portfolio should be constructed and weighted.
+This analysis ranks five Singapore blue-chip stocks by risk-adjusted return — not just raw return — to answer the question an investor actually cares about: where does each unit of risk pay off best? DBS Group comes out on top (Sharpe ~2.17), delivering strong returns at lower volatility than ST Engineering, which posted a higher raw return but a worse risk-adjusted one. CapitaLand Investment is the one clear underperformer (negative Sharpe). An equal-weighted portfolio of all five also cuts volatility below any single stock, confirming diversification benefits even with only moderate correlation between holdings. A drawdown-detection query further identified that during the April 7, 2025 "Black Monday" global selloff, Singtel was the only holding that did not fall alongside the other four — consistent with a broader flight to defensive, high-dividend telecom stocks during the tariff-driven panic, which saw institutional inflows into Singtel of over S$340 million in just two weeks.
 
 ## Project Overview
 
@@ -35,7 +35,7 @@ Rather than just comparing raw returns, the analysis focuses on **risk-adjusted 
 - **ST Engineering (S63.SI)** posted the highest raw return (~45.4%) but with higher volatility (~24.2%), resulting in a lower Sharpe ratio (~1.87) than DBS — a textbook example of return not being "free" of risk.
 - **CapitaLand Investment (9CI.SI)** was the only stock with a negative Sharpe ratio, underperforming across the analysis window.
 - **Portfolio diversification worked as expected**: an equal-weighted portfolio of all five stocks had a lower annual volatility (~13.1%) than any single stock held alone, despite moderate pairwise correlations (0.25–0.40).
-- A **cross-stock drawdown event around early April 2025** was identified where four of the five stocks fell more than 5% on the same day — consistent with a broad market shock rather than a company-specific issue.
+- A cross-stock drawdown event on **April 7, 2025 ("Black Monday")** saw four of the five stocks fall more than 5% amid a global tariff-driven selloff — **Singtel was the sole exception**, consistent with a broader flight to defensive, high-dividend telecom stocks during the panic (Singtel saw over S$340M in institutional inflows in the following two weeks).
 - Portfolio volatility peaked in **Q2 2025**, coinciding with the strongest quarterly return — reinforcing the risk/return trade-off visible in the individual stock analysis.
 
 ---
