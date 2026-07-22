@@ -124,7 +124,7 @@ Five linked views were combined into a single Tableau dashboard:
 ---
 
 ## Excel
-Due to Solver being unavailable in the browser-based Excel environment used, the optimal weight allocation was approximated through manual iteration guided by each stock's standalone Sharpe ratio, rather than solved precisely via Excel Solver or a numerical optimizer (e.g., scipy.optimize). This approach converged to a Sharpe ratio of ~2.58, close to the ~2.61 theoretical optimum, but a production workflow would use Solver or Python for an exact solution.
+Due to Solver being unavailable in the browser-based Excel environment used, the optimal weight allocation was approximated through manual iteration guided by each stock's standalone Sharpe ratio, rather than solved precisely via Excel Solver or a numerical optimizer. This approach converged to a Sharpe ratio of 2.58.
 
 ---
 
