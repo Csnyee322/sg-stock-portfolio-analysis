@@ -126,6 +126,8 @@ Five linked views were combined into a single Tableau dashboard:
 ## Excel
 Due to Solver being unavailable in the browser-based Excel environment used, the optimal weight allocation was approximated through manual iteration guided by each stock's standalone Sharpe ratio, rather than solved precisely via Excel Solver or a numerical optimizer. This approach converged to a Sharpe ratio of 2.58.
 
+An Excel-based portfolio weight optimizer (covariance matrix + Sharpe Ratio Model) is available at 'portfolio_optimizer.xlsx'.
+
 ---
 
 ## Possible Extensions
